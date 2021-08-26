@@ -1,14 +1,14 @@
-$primary-font: 'Open Sans', 'sans serif';
-$heading-font: 'Archivo Narrow', 'sans serif';
+$primary-font: "Open Sans", "sans serif";
+$heading-font: "Archivo Narrow", "sans serif";
 
 $colors: (
-    blackish: #262626,
-    cherry: #C32C72,
-    dark-grey: #8D8D8D,
-    light-grey: #E5E5E5,
-    cream: #F4F3EE,
+  blackish: #262626,
+  cherry: #c32c72,
+  dark-grey: #8d8d8d,
+  light-grey: #e5e5e5,
+  cream: #f4f3ee,
 );
 
 @function getColor($color) {
-    @return map-get($colors, $color)
+  @return map-get($colors, $color);
 }

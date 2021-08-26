@@ -1,22 +1,17 @@
 html {
-    font-family: $primary-font;
+  font-family: $primary-font;
 }
 
 .navbar-brand {
-    font-size: 2.2em;
-    font-weight: 300;
-}
-
-h1 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 ul > li {
-    font-family: $heading-font;
-    text-transform: uppercase;
-    font-size: 1.2em;
+  font-family: $heading-font;
+  text-transform: uppercase;
+  font-size: 1.2em;
 }
 
 footer {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }

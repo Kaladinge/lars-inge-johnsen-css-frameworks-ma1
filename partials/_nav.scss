@@ -1,22 +1,18 @@
 .navbar {
-    background-color: getColor(cream) !important;
-    
-
-    li {
-        border-radius: 10% !important;
-        a {
-                color: getColor(dark-grey) !important;
-            }
-
-        &:hover {
-            background-color: lighten($color: getColor(cream), $amount: 10%);
-        }
+  li {
+    border-radius: 10%;
+    a {
+      color: getColor(dark-grey) !important;
     }
 
-    .active {
-        a {
-        color: getColor(cherry) !important;
-        }
+    &:hover {
+      background-color: lighten($color: getColor(cream), $amount: 10%);
     }
+  }
+
+  .active {
+    a {
+      color: getColor(cherry) !important;
+    }
+  }
 }
-

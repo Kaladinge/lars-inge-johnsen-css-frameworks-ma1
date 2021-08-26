@@ -1,12 +1,8 @@
 @import "../partials/variables";
-@import "../partials/mixin";
-@import "../partials/nav";
-@import "../partials/base";
-@import "../partials/typography";
-@import "../partials/footer";
+@import "../partials/custom";
 
 @import "../bootstrap.scss/functions";
-@import "../bootstrap.scss/variables";
+@import "../bootstrap.scss/variables-bootstrap";
 @import "../bootstrap.scss/mixins";
 @import "../bootstrap.scss/root";
 @import "../bootstrap.scss/reboot";
@@ -42,3 +38,9 @@
 @import "../bootstrap.scss/spinners";
 @import "../bootstrap.scss/utilities";
 @import "../bootstrap.scss/print";
+
+@import "../partials/mixin";
+@import "../partials/nav";
+@import "../partials/base";
+@import "../partials/typography";
+@import "../partials/footer";
