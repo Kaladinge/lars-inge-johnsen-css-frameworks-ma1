@@ -1,0 +1,16 @@
+.navbar {
+    background-color: getColor(cream) !important;
+
+    li {
+        a {
+                color: getColor(dark-grey) !important;
+            }
+    }
+
+    .active {
+        a {
+        color: getColor(cherry) !important;
+        }
+    }
+}
+

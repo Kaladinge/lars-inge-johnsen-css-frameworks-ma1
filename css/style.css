@@ -1,0 +1,66 @@
+.navbar {
+  background-color: #F4F3EE !important;
+}
+
+.navbar li a {
+  color: #8D8D8D !important;
+}
+
+.navbar .active a {
+  color: #C32C72 !important;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+body h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #262626;
+}
+
+.row {
+  border: 1px solid green;
+}
+
+.row .card {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+html {
+  font-family: "Open Sans", "sans serif";
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+ul > li {
+  font-family: "Archivo Narrow", "sans serif";
+}
+
+footer {
+  background-color: #F4F3EE;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
