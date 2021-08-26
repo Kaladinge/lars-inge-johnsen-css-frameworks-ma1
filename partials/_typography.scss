@@ -3,7 +3,7 @@ html {
 }
 
 .navbar-brand {
-    font-size: 1.8em;
+    font-size: 2.2em;
     font-weight: 300;
 }
 
@@ -13,4 +13,10 @@ h1 {
 
 ul > li {
     font-family: $heading-font;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+footer {
+    font-size: 0.8em;
 }

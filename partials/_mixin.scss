@@ -1,0 +1,7 @@
+@mixin makeCard($fillColor,$borderColor) {
+    width: 230px;
+    height: 230px;
+    border-radius: 5%;
+    background-color: $fillColor;
+    border: 3px solid $borderColor;
+}

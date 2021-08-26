@@ -1,5 +1,8 @@
 footer {
     background-color: getColor(cream);
+    color: getColor(dark-grey);
+    flex-shrink: 0;
+    padding: 15px 0;
 
     .container {
         display: flex;
