@@ -17,8 +17,7 @@ body {
 }
 
 .row {
-    border: 1px solid green;
-
+    
     .card {
         @include makeCard(getColor(cream),none);
         margin: 0 auto;

@@ -1,114 +1,9 @@
-.navbar {
-  background-color: #F4F3EE !important;
-}
-
-.navbar li {
-  border-radius: 10% !important;
-}
-
-.navbar li a {
-  color: #8D8D8D !important;
-}
-
-.navbar li:hover {
-  background-color: white;
-}
-
-.navbar .active a {
-  color: #C32C72 !important;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  background-color: #E5E5E5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-body h1 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 60px;
-  color: #262626;
-}
-
-.row .card {
-  width: 230px;
-  height: 230px;
-  border-radius: 5%;
-  background-color: #F4F3EE;
-  border: 3px solid none;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
-.row .white {
-  width: 230px;
-  height: 230px;
-  border-radius: 5%;
-  background-color: white;
-  border: 3px solid #C32C72;
-}
-
-.row .pink {
-  width: 230px;
-  height: 230px;
-  border-radius: 5%;
-  background-color: #C32C72;
-  border: 3px solid white;
-}
-
-html {
-  font-family: "Open Sans", "sans serif";
-}
-
-.navbar-brand {
-  font-size: 2.2em;
-  font-weight: 300;
-}
-
-h1 {
-  font-weight: 300;
-}
-
-ul > li {
-  font-family: "Archivo Narrow", "sans serif";
-  text-transform: uppercase;
-  font-size: 1.2em;
-}
-
-footer {
-  font-size: 0.8em;
-}
-
-footer {
-  background-color: #F4F3EE;
-  color: #8D8D8D;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  padding: 15px 0;
-}
-
-footer .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -123,11 +18,6 @@ footer .container {
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --blackish: #262626;
-  --cherry: #C32C72;
-  --dark-grey: #8D8D8D;
-  --light-grey: #E5E5E5;
-  --cream: #F4F3EE;
   --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
@@ -10911,4 +10801,4 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
