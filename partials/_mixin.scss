@@ -5,4 +5,9 @@
   background-color: $fillColor;
   border: 3px solid $borderColor;
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 960px) {
+    width: 290px;
+    height: 290px;
+  }
 }

@@ -1,11 +1,18 @@
-footer {
-    background-color: getColor(cream);
-    color: getColor(dark-grey);
-    flex-shrink: 0;
-    padding: 15px 0;
+.footer {
+  background-color: getColor(cream);
+  color: getColor(dark-grey);
+  flex-shrink: 0;
+  padding: 15px 0;
 
-    .container {
-        display: flex;
-        justify-content: space-between;
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  &__box {
+    @extend .flex-info;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
     }
+  }
 }

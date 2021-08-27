@@ -17,66 +17,63 @@
 <body>
     <div class="wrapper">
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">MA1</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+            
+                <a class="navbar-brand navbar__logo" href="#">MA1</a>
+                <button class="navbar-toggler navbar__hamburger" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon navbar__hamburger-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <div class="collapse navbar-collapse navbar__dropdown" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar__list">
+                        <li class="nav-item active navbar__listitem navbar__listitem--active">
+                            <a class="nav-link navbar__link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link about" href="/">About</a>
+                        <li class="nav-item navbar__listitem">
+                            <a class="nav-link navbar__link" href="/">About</a>
                         </li>
                     </ul>
                 </div>
-            </div>
+            
         </nav>
-
-
-
 
         <div class="container">
             <h1>Page heading</h1>
 
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card"></div>
+            <div class="row container__item">
+                <div class="col-sm-12 col-lg-4 col-xl-3 cards">
+                    <div class="cards__item"></div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card"></div>
+                <div class="col-sm-12 col-lg-4 col-xl-3 cards">
+                    <div class="cards__item"></div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card white"></div>
+                <div class="col-sm-12 col-lg-4 col-xl-3 cards">
+                    <div class="cards__item cards__item--white"></div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card"></div>
+                <div class="col-sm-12 col-lg-4 col-xl-3 cards">
+                    <div class="cards__item"></div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card"></div>
+                <div class="col-sm-12 col-lg-4 col-xl-3 cards">
+                    <div class="cards__item"></div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card pink"></div>
+                <div class="col-sm-12 col-lg-4 col-xl-3 cards">
+                    <div class="cards__item cards__item--pink"></div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card"></div>
+                <div class="col-sm-12 col-lg-4 col-xl-3 cards">
+                    <div class="cards__item"></div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card white"></div>
+                <div class="col-sm-12 col-lg-4 col-xl-3 cards">
+                    <div class="cards__item cards__item--white"></div>
                 </div>
             </div>
 
         </div>
     </div>
-    <footer>
-        <div class="container">
-            <div>hello@email.com</div>
-            <div>Copyright 2020</div>
+    <footer class="footer">
+        <div class="container footer__box">
+            <div class="footer__item">hello@email.com</div>
+            <div class="footer__item">Copyright 2020</div>
         </div>
     </footer>
 

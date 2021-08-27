@@ -2,24 +2,32 @@
   position: fixed;
   width: 100%;
   z-index: 1;
+  padding-bottom: 0;
 
-  .navbar-brand {
+  .navbar__logo {
     color: getColor(blackish);
+    padding: 0 0 10px 60px;
+
+    @media (max-width: 768px) {
+      padding: 0 0 10px 10px;
+    }
   }
 
-  li {
+  &__hamburger {
+    border: none;
+  }
+
+  &__listitem {
+    padding: 0 10px;
     &:hover {
       background-color: lighten($color: getColor(cream), $amount: 10%);
     }
   }
 
-  .navbar-toggler {
-    border: none;
-  }
-
-  .about {
+  &__list {
     @media (max-width: 768px) {
-      margin-bottom: 50px;
+      padding-bottom: 50px;
+      box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.15);
     }
   }
 }

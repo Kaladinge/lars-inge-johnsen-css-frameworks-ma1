@@ -3,35 +3,41 @@ body {
   height: 100%;
 }
 
-body {
+.flex-info {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+}
+
+body {
+  @extend .flex-info;
+  flex-direction: column;
 
   h1 {
     text-align: center;
-    margin-top: 90px;
-    margin-bottom: 30px;
-    color: getColor(blackish);
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: getColor(blackish2);
   }
 }
 
-.row {
-  .card {
+.margin-info {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.cards {
+  &__item {
     @include makeCard(getColor(cream), none);
-    margin: 0 auto;
-    margin-bottom: 50px;
+    @extend .margin-info;
   }
 
-  .white {
+  &__item--white {
     @include makeCard(white, getColor(cherry));
+    @extend .margin-info;
   }
 
-  .pink {
+  &__item--pink {
     @include makeCard(getColor(cherry), white);
+    @extend .margin-info;
   }
-}
-
-.container {
-  border: 1px solid green;
 }

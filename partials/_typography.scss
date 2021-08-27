@@ -2,16 +2,16 @@ html {
   font-family: $primary-font;
 }
 
-.navbar-brand {
+.navbar__logo {
   font-weight: 300;
 }
 
-ul > li {
+.navbar__list > .navbar__listitem {
   font-family: $heading-font;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
-footer {
-  font-size: 0.8em;
+.footer {
+  font-size: 12px;
 }
