@@ -10,8 +10,8 @@ body {
 
   h1 {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 90px;
+    margin-bottom: 30px;
     color: getColor(blackish);
   }
 }
@@ -30,4 +30,8 @@ body {
   .pink {
     @include makeCard(getColor(cherry), white);
   }
+}
+
+.container {
+  border: 1px solid green;
 }

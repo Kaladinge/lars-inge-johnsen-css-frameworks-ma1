@@ -1,18 +1,25 @@
 .navbar {
-  li {
-    border-radius: 10%;
-    a {
-      color: getColor(dark-grey) !important;
-    }
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 
+  .navbar-brand {
+    color: getColor(blackish);
+  }
+
+  li {
     &:hover {
       background-color: lighten($color: getColor(cream), $amount: 10%);
     }
   }
 
-  .active {
-    a {
-      color: getColor(cherry) !important;
+  .navbar-toggler {
+    border: none;
+  }
+
+  .about {
+    @media (max-width: 768px) {
+      margin-bottom: 50px;
     }
   }
 }

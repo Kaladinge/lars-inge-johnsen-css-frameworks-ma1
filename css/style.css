@@ -4942,11 +4942,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -4965,7 +4965,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-light .navbar-toggler {
@@ -4982,11 +4982,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-text a {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #c32c72;
 }
 
 .navbar-dark .navbar-brand {
@@ -10801,20 +10801,28 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.navbar li {
-  border-radius: 10%;
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
-.navbar li a {
-  color: #8d8d8d !important;
+.navbar .navbar-brand {
+  color: #262626;
 }
 
 .navbar li:hover {
   background-color: white;
 }
 
-.navbar .active a {
-  color: #c32c72 !important;
+.navbar .navbar-toggler {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .navbar .about {
+    margin-bottom: 50px;
+  }
 }
 
 html,
@@ -10837,35 +10845,45 @@ body {
 
 body h1 {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 60px;
+  margin-top: 90px;
+  margin-bottom: 30px;
   color: #262626;
 }
 
 .row .card {
-  width: 230px;
-  height: 230px;
+  width: 264px;
+  height: 264px;
   border-radius: 5%;
   background-color: #f4f3ee;
   border: 3px solid none;
+  -webkit-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
 .row .white {
-  width: 230px;
-  height: 230px;
+  width: 264px;
+  height: 264px;
   border-radius: 5%;
   background-color: white;
   border: 3px solid #c32c72;
+  -webkit-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
 }
 
 .row .pink {
-  width: 230px;
-  height: 230px;
+  width: 264px;
+  height: 264px;
   border-radius: 5%;
   background-color: #c32c72;
   border: 3px solid white;
+  -webkit-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  border: 1px solid green;
 }
 
 html {
